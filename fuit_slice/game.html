@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruit Game (Jquerry)</title>
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1, user-scalable=yes" >
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="score">
+        Счет : <span id="scoreValue"></span>
+    </div>
+    <div class="trialsLeft" id="trialsLeft"></div>
+
+    <div class="fruitContainer" id="fruitContainer">
+        <img id="fruit1">
+    </div>
+    <div class="instruction">
+        Уничтожь все фрукты!
+    </div>
+
+    <div class="start_reset" id="startReset">
+        Начать игру
+    </div>
+    <div class="game_over" id="game_over">
+
+    </div>
+</div>
+<audio id="slicesound">
+    <source src="audio/sword.mp3">
+
+    <source src="audio/sword.ogg">
+</audio>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</html>
